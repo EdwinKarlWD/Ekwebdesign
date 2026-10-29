@@ -130,5 +130,6 @@ document.querySelector('.pv').onclick=()=>show(k-1);document.querySelector('.nx'
 d.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(k-1);if(e.key==='ArrowRight')show(k+1);});
 document.querySelector('.copy').onclick=e=>{const b=e.currentTarget;try{navigator.clipboard.writeText(b.dataset.t);b.textContent='Kopiert';setTimeout(()=>b.textContent=b.dataset.t,1600);}catch(_){}};
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8043c0d8d72c44c0896ee1543aa0c348"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
